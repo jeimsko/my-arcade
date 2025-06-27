@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bubble Game</title>
+  <style>
+    body { background: #333; color: white; text-align: center; font-family: sans-serif; }
+    canvas { margin-top: 30px; background: #000; display: block; margin-left:auto; margin-right:auto; }
+  </style>
+</head>
+<body>
+  <h2>Bubble Trouble - DEMO</h2>
+  <canvas id="gameCanvas" width="640" height="480"></canvas>
+  <script>
+    const ctx = document.getElementById("gameCanvas").getContext("2d");
+    ctx.fillStyle = "white";
+    ctx.font = "20px sans-serif";
+    ctx.fillText("🔵 Bubble Trouble DEMO - 게임 로딩 완료!", 50, 100);
+  </script>
+</body>
+</html>
